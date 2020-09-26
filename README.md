@@ -12,7 +12,7 @@ Some useful python code snippets and utilities.
 [Video Surveillance with Raspberry Pi](https://github.com/anshulkhare7/PythonUtils/blob/master/videoStreamingRaspi.py) - Broadcast the feed from pi-camera connected to the Raspberry Pi. The feed can be seen through browser on the same network.
 
 [Check FPS](https://github.com/anshulkhare7/PythonUtils/blob/master/checkFPS.py) - Check the frames per second rate for video file or web cam.
-s
+
 [Extract Frames](https://github.com/anshulkhare7/PythonUtils/blob/master/extractFrames.py) - Extract frames (images) from the video file.
 
 [Snap7](https://github.com/anshulkhare7/PythonUtils/blob/master/snap7) - Snap7 is a python library to connect to Siemens PLCs.

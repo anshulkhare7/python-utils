@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from PyPDF2 import PdfFileReader, PdfFileWriter
 import pikepdf
 
@@ -68,13 +70,13 @@ def decrypt_pdf2(input_path, output_path, password):
         print("Total pages:", num_pages)
 
 if __name__ == '__main__':
-    #doc_1 = '/Users/anshul/Downloads/abc.pdf'
-    #doc_2 = '/Users/anshul/Downloads/abc.pdf'    
+    doc_1 = '/Users/anshul/Downloads/input01.pdf'
+    doc_2 = '/Users/anshul/Downloads/input02.pdf'    
     #extract_information('/Users/anshul/Downloads/abc.pdf')
-    #paths = [doc_1, doc_2]
-    #merge_pdfs(paths, output='/Users/anshul/Downloads/merged.pdf')
-    #remove_page(doc_1,doc_2,7)
-    encrypted = '/Users/anshul/Downloads/abc.pdf'
-    decrypted = '/Users/anshul/Downloads/abc.pdf'
-    password = 'password'
-    decrypt_pdf(encrypted, decrypted, password)
+    paths = [doc_1, doc_2]
+    merge_pdfs(paths, output='/Users/anshul/Downloads/output.pdf')
+    #remove_page(doc_1,doc_2,1)
+    #encrypted = '/Users/anshul/Downloads/abc.pdf'
+    #decrypted = '/Users/anshul/Downloads/abc.pdf'
+    ##password = 'password'
+    #decrypt_pdf(encrypted, decrypted, password)

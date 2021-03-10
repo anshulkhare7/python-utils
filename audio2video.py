@@ -30,8 +30,8 @@ def joinVideo(inputdirectory):
     final_clip.write_videofile(inputdirectory+'joined-video.mp4')
 
 if __name__=="__main__":    
-    inDir = r"C:\Users\91998\Documents\\"
-    imagePath = r"C:\Users\91998\Documents\myimage.jpg"
-    outDir = r"C:\Users\91998\Documents\\"
+    inDir = r"C:\Users\anshul\Documents\\"
+    imagePath = r"C:\Users\anshul\Documents\myimage.jpg"
+    outDir = r"C:\Users\anshul\Documents\\"
     convert(inDir, imagePath, outDir)
     joinVideo(outDir)

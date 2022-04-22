@@ -28,7 +28,7 @@ proglog==0.1.9
 psutil==5.8.0
 pycparser==2.20
 pyparsing==2.4.7
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 pytube==10.4.1
 requests==2.25.1
 resampy==0.2.2

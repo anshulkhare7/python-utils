@@ -19,7 +19,7 @@ lxml==4.6.2
 m3u8==0.8.0
 moviepy==1.0.3
 numba==0.52.0
-numpy==1.19.4
+numpy==1.22.0
 packaging==20.8
 pikepdf==2.2.2
 Pillow==8.0.1

@@ -12,7 +12,7 @@ idna==2.10
 imageio==2.9.0
 imageio-ffmpeg==0.4.3
 iso8601==0.1.13
-joblib==1.0.0
+joblib==1.2.0
 librosa==0.8.0
 llvmlite==0.35.0
 lxml==4.6.2

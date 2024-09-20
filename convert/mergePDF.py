@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from PyPDF2 import PdfFileReader, PdfFileWriter
-import pikepdf
+#import pikepdf
 
 def remove_page(path, output, page_to_Remove):
     pdf_writer = PdfFileWriter()
@@ -70,13 +70,24 @@ def decrypt_pdf2(input_path, output_path, password):
         print("Total pages:", num_pages)
 
 if __name__ == '__main__':
-    doc_1 = '/Users/anshul/Downloads/input01.pdf'
-    doc_2 = '/Users/anshul/Downloads/input02.pdf'    
+    doc_1 = '/Users/anshul/Documents/docs/E-Aadhar-password-ANSH1981.pdf'
+    doc_2 = '/Users/anshul/Documents/docs/E-Aadhar-password-ANSH1981-dec.pdf'
+    # doc_3 = '/Users/anshul/Downloads/Shruti-Quantum-9991336776.pdf'
+    # doc_4 = '/Users/anshul/Downloads/Shruti-Quantum-9991353164.pdf'
+    # doc_5 = '/Users/anshul/Downloads/page-05.pdf'    
+    # doc_6 = '/Users/anshul/Downloads/page-06.pdf'    
+    # doc_7 = '/Users/anshul/Downloads/page-07.pdf'    
+    # doc_8 = '/Users/anshul/Downloads/page-08.pdf'    
+    # doc_9 = '/Users/anshul/Downloads/page-09.pdf'    
+    # doc_10 = '/Users/anshul/Downloads/page-10.pdf'    
+
     #extract_information('/Users/anshul/Downloads/abc.pdf')
-    paths = [doc_1, doc_2]
-    merge_pdfs(paths, output='/Users/anshul/Downloads/output.pdf')
-    #remove_page(doc_1,doc_2,1)
-    #encrypted = '/Users/anshul/Downloads/abc.pdf'
-    #decrypted = '/Users/anshul/Downloads/abc.pdf'
-    ##password = 'password'
-    #decrypt_pdf(encrypted, decrypted, password)
+    # paths = [doc_1, doc_2, doc_3, doc_4, doc_5, doc_6, doc_7, doc_8, doc_9, doc_10 ]
+    # paths = [doc_1, doc_2, doc_3]
+    # merge_pdfs(paths, output='/Users/anshul/Downloads/life-certificate-2021.pdf')
+    # remove_page(doc_1,doc_2,2)
+    # encrypted = '/Users/anshul/Downloads/ELSS-Statement-encrypted.pdf'
+    # decrypted = '/Users/anshul/Downloads/ELSS-Statement.pdf'
+    # password = 'AMYPK6172H'
+    decrypt_pdf(doc_1, doc_2, "ANSH1981")
+    # decrypt_pdf(doc_2, doc_4, "BLXPS4482F")

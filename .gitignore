@@ -1,3 +1,6 @@
+.DS_Store
+.idea/*
+
 # media files
 *.mp4
 *.pdf

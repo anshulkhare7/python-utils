@@ -5,7 +5,7 @@ import os, re, argparse
 def main():    
     inputFile = "/Users/anshul/Downloads/output/to-cut.mp4"    
     outputLocation = "/Users/anshul/Downloads/output/"
-    split(inputFile, outputLocation)
+    # split(inputFile, outputLocation)
     join()
 
 
@@ -17,11 +17,11 @@ def split(vidfile, output):
 
 def join():    
     folder_prefix = '/Users/anshul/Downloads/output/'
-    numbers = re.compile(r'(\d+)')
+    # numbers = re.compile(r'(\d+)')
 
     # this two lines are for loading the videos. In this case the video are named as: cut1.mp4, cut2.mp4, ..., cut15.mp4
     videofiles = [n for n in os.listdir(folder_prefix) if n[0]=='o' and n[-4:]=='.avi']
-    videofiles = sorted(videofiles, key=numericalSort)
+    # videofiles = sorted(videofiles, key=numericalSort)
     print(videofiles)
     video_index = 0
 
@@ -33,7 +33,7 @@ def join():
 
     final_clip = concatenate_videoclips(clips)
     final_clip.write_videofile(folder_prefix+'joined-video.mp4')
-    print "end."
+    print("end.")
 
 
 def numericalSort(value):

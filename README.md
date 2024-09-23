@@ -21,3 +21,11 @@ Some useful python code snippets and utilities.
 [Merge PDF](https://github.com/anshulkhare7/PythonUtils/blob/master/mergePDF.py) - Merge PDF files using PyPDF2 package. Install with `pip install pypdf2`. Based on [this.](https://realpython.com/pdf-python/). Requires python 3.8.
 
 [Convert Audio to Video](https://github.com/anshulkhare7/PythonUtils/blob/master/audio2video.py) - Convert audio file to video file.
+
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  [![Twitter](https://img.shields.io/twitter/follow/_anshulkhare?style=social)](https://twitter.com/_anshulkhare) 
+
+# License
+
+This repository is released under the [MIT license](https://opensource.org/licenses/MIT). In short, this means you are free to use this software in any personal, open-source or commercial projects. Attribution is optional but appreciated.
+
